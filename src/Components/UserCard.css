@@ -1,0 +1,59 @@
+.user{
+    width: 100%;
+    max-width: 20em;
+    border-radius: 0.8em;
+    border: 0.1em solid #aaa5;
+    background-color: rgb(227, 248, 248); 
+    padding: 1.5em 1em 2em;
+    box-shadow: 5px 3px 2px 1px rgb(3, 88, 29);
+    margin-right: 2em;
+    margin-left: 2em;
+}
+.user__name
+{
+    font-size: 1.1em;
+    font-weight: 600;
+}
+.user__hr{
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+    border-color: #aaaaaa22;
+}
+.user__list{
+    display: grid;
+    gap: 0.7em;
+    margin-bottom: 1.2em;
+}
+.user__item{
+    display: grid;
+    gap: 0.2m;
+}
+.user__label{
+    font-size: 0.8em;
+    padding-left: 1em;
+    color: #aaa;
+    text-transform: uppercase;
+}
+.user__footer{
+    display: flex;
+    gap: 1em;
+    justify-content: flex-end;
+}
+.user__Btn{
+    font-size: 1.2em;
+    width: 2em;
+    aspect-ratio: 1;
+    border-radius: 0.5em;
+    color: white;
+    &:hover{
+        filter: brightness(1.2);
+    }
+}
+.user__delet{
+    background-color: rgb(199, 29, 29);
+   
+}
+.user__edit{
+    
+    background-color: rgb(146, 85, 5);
+}

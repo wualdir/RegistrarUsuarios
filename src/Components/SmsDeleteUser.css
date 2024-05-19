@@ -1,0 +1,59 @@
+ .SmsDelete{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0002;
+    backdrop-filter: blur(2px);
+    transition: transform 100ms ease;
+    
+    
+} 
+.close{
+    transform: scale(0);
+}
+.form{
+    width: 100%;
+    max-width: 25em;
+    padding: 3em 2em 2em;
+    background-color: white;
+    border-radius: 0.8em;
+    position: relative;
+}
+.form__exit{
+position: absolute;
+font-size: 1.2em;
+right: 1.8em;
+top: 1em;
+color: red;
+cursor: pointer;
+
+}
+.user__footer{
+    display: flex;
+    gap: 1em;
+    justify-content: flex-end;
+}
+.user__Btn{
+    font-size: 1.2em;
+    width: 2em;
+    aspect-ratio: 1;
+    border-radius: 0.5em;
+    color: white;
+    &:hover{
+        filter: brightness(1.2);
+    }
+}
+
+.user__si{
+    background-color: rgb(199, 29, 29);
+   
+}
+.user__no{
+    
+    background-color: rgb(146, 85, 5);
+}
